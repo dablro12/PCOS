@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.18.1
+        m: []
+        python_version: 3.8.0
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 55
+                - 63
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 53
+                - 55
+                - 63
+            "3":
+                - 16
+                - 17
+                - 23
+                - 55
+            "4": 3.8.0
+            "5": 0.18.1
+            "8":
+                - 5
+            "12": 0.18.1
+            "13": linux-x86_64
+backbone_model:
+    value: vgg
+csv_path:
+    value: /mnt/hdd/octc/experiment/all.csv
+data_dir:
+    value: /mnt/hdd/octc/experiment/Dataset
+epochs:
+    value: 200
+fold_num:
+    value: 1
+lr:
+    value: 0.0001
+save_dir:
+    value: /mnt/hdd/octc/experiment/checkpoint
+train_batch_size:
+    value: 32
+valid_batch_size:
+    value: 8
+wandb_project:
+    value: multi-pcos-classifier
+wandb_use:
+    value: true
