@@ -564,9 +564,8 @@ app/DB/users.db
 
 .env
 
-
 wandb
 wandb/**
 wandb/**/**
 
-
+.gitignore
