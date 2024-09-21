@@ -563,3 +563,10 @@ uploaded_videos/*.flac
 app/DB/users.db 
 
 .env
+
+
+wandb
+wandb/**
+wandb/**/**
+
+
